@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Andada+Pro&display=swap');
+
+body, html {
+  padding: 0;
+  margin: 0;
+}
+.homepage-block {
+  width: 100%;
+  
+}
+.conatiner{
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.sub-nav{
+  background-color: #0092fe;
+  height: 42px;
+  line-height: 42px;
+}
+.main-nav{
+  background-color: #ffff;
+  height: 80px;
+}
+.main-banner{
+  background-color: #32b8f3;
+  height: 480px;
+
+}
+.left{
+  float: left;
+}
+.right{
+  float: right;
+}
+.clear{
+  clear: both;
+}
+.sub-nav-text{
+  color: #ffff; 
+  font-family: 'Andada Pro', serif;
+  font-size: 14px;
+  text-transform: capitalize;
+}
+.sub-nav-text ul{
+  list-style-type: none;
+  padding: 0;
+  margin:0;
+}
+.sub-nav-text ul li{
+  float: left;
+  padding:0 16px 0 0;
+}
+.main-nav-text ul{
+  list-style-type: none;
+  padding: 22px 0 0 0;
+  margin:0;
+  }
+.main-nav-text ul li{
+  float: left;
+  padding:0 32px 0 0;
+  text-transform: capitalize;
+  font-size: 24px;
+  padding: 6px 8px ;
+}
+.main-nav-text ul li:first-child {
+  color:#ffff;
+  background-color: #000;
+  margin-right: 40px;
+}
+.main-img {
+  background-image: url("../images/enterprise-banner-12.jpeg");
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 480px;
+  width: 100%;
+}
+.big-text{
+  font-size: 52px;
+  text-transform: uppercase;
+  color: #ffff;
+  font-family: 'Andada Pro', serif;
+
+}
+.small-text{
+  font-size: 28px;
+  text-transform: uppercase;
+  color:#ffff;
+  font-family: 'Andada Pro', serif;
+
+}
+.callout{
+  width: 300px;
+  padding: 50px 0 0 80px;
+  text-shadow: 2px 2px #000;
+
+}
+.where-text{
+  letter-spacing: 10px;
+}
+.been-text{
+  letter-spacing: 14px;
+}
+.yet-text{
+  padding: 0 0 0 54px;
+}
+.callout-button{
+  background-color: #f04922;
+  border-radius: 10px;
+  color:#fff;
+  text-transform: capitalize;
+  padding: 8px 10px;
+  width: 100px;
+  text-shadow: none !important;
+  margin: 20px 0 0 68px;
+}
+.exclusivegrouprates-title{
+  text-transform: uppercase;
+  font-family: 'Andada Pro', serif;
+  width: 644px;
+  margin: -28px auto 0 auto;
+  font-size: 48px;
+  text-shadow: 0px 0px 4px #fff;
+}
+.exclusivegrouprates-text{
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 26px 20px 0 20px;
+}
+.travelers-favorite{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  padding: 40px 0 0 0;
+}
+.travel-item{
+  width: 300px;
+}
+.travel-item img{
+  width: 100%;
+  height:auto;
+
+}
+.travel-item-box{
+  width: 100%;
+  height: 200px;
+  margin: -6px 0 0 0;
+}
+.item-box-blue{
+  background-color: #0092fe;
+}
+.item-box-rojo{
+  background-color: red;
+}
+.item-box-green{
+  background-color: green;
+}
+.top-text-left,
+.top-text-right{
+  width: 49%;
+  padding: 10px 10px;
+  color: #fff;
+  font-family: 'Andada Pro', serif;
+  text-align: center;
+  float: left;
+}
+.location-title{
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+.location-title-lite{
+  font-size: 20px;
+  text-transform: uppercase;
+}
